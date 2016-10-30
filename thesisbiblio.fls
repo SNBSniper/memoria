@@ -1,0 +1,7 @@
+PWD /home/danielftapiar/Dropbox/Universidad/Memoria
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/danielftapiar/Dropbox/Universidad/Memoria/thesisbiblio.bib
+OUTPUT /home/danielftapiar/Dropbox/Universidad/Memoria/thesisbiblio.log
