@@ -34,8 +34,9 @@
 \ifpdf
 \pdfinfo{
    /Author (Daniel Francisco Tapia Rybertt)
-   /Title (METODOLOGIAS DE ANALISIS EN SEGURIDAD PARA APLICACIONES WEB)
-   /Keywords (Android;Smali;Java;Apktool;)
+   /Title ( Ingeniería Inversa de Aplicaciones Móviles para Descubrimiento
+             de Vulnerabilidades: Amenazas y Defensas)
+   /Keywords (Android;Smali;Java;Apktool)
    /CreationDate (D:\pdfdate)
 }
 \fi
@@ -192,7 +193,26 @@
                                     %verbatim-like environment
 \usepackage[version=0.96]{pgf}          %PGF/TikZ is a tandem of languages for producing vector graphics from a 
 \usepackage{tikz}                       %geometric/algebraic description.
-\usepackage{textcomp\}                  %Trademark or TS1 symbols
+\usepackage{textcomp}                  %Trademark or TS1 symbols
+% \usepackage{dirtree}                   %Directory Tree Listings
+% \usepackage{forest}                 %Directory Tree Listings Pretty
+\usepackage{tikz}
+\usepackage{minted}
+\definecolor{lightGrey}{rgb}{0.95,0.95,0.95}
+\definecolor{white}{rgb}{1,1,1}
+\usetikzlibrary{trees}
+
+\usepackage{xcolor}
+
+
+
+
+\usepackage[most]{tcolorbox}
+
+\newtcblisting{commandshell}{colback=black,colupper=white,colframe=yellow!75!black,
+listing only,listing options={language=sh},
+every listing line={\textcolor{red}{\small\ttfamily\bfseries danielftapiar \$> }}}
+
 \usetikzlibrary{arrows,shapes,snakes,
                automata,backgrounds,
                petri,topaths}               %To use diverse features from tikz      
@@ -212,7 +232,7 @@
         \displaystyle#1 \\
         \displaystyle#2
     \end{array}\right)}
-\newcommand{\mados}[4]{\left(                                                                       %Defines a 2x2 matrix
+\newcommand{\mados}[4]{\left(                                                                           %Defines a 2x2 matrix
     \begin{array}{cc}
         \displaystyle#1 &\displaystyle #2 \\
         \displaystyle#3 & \displaystyle#4
@@ -319,6 +339,11 @@
 %
 %
 \begin{document}
+
+\tikzstyle{every node}=[thick,anchor=west, rounded corners, font={\scriptsize\ttfamily}, inner sep=2.5pt]
+\tikzstyle{selected}=[draw=blue,fill=blue!10]
+\tikzstyle{root}=[selected, fill=blue!30]
+
 % UoB guidlines:
 %
 % Preliminary pages
@@ -372,6 +397,7 @@
 %
 \import{chapters/chapter01/}{chap01.tex}
 \import{chapters/chapter02/}{chap02.tex}
+\import{chapters/chapter03/}{chap03.tex}
 \clearemptydoublepage
 %
 %

@@ -1,21 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.30)  30 OCT 2016 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.30)  30 OCT 2016 11:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **/home/danielftapiar/Dropbox/Universidad/Memoria/Investigacion/chapters/chapte
-r01/chap01.tex
+r03/chap03.tex
 
 (/home/danielftapiar/Dropbox/Universidad/Memoria/Investigacion/chapters/chapter
-01/chap01.tex
+03/chap03.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 ! Undefined control sequence.
 l.7 \chapter
-            {State of the art}
+            {Anatomy of an Android App}
 ? 
 ! Emergency stop.
 l.7 \chapter
-            {State of the art}
+            {Anatomy of an Android App}
 End of file on the terminal!
 
  

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/*Obfuscated Java code*/}
+
+\PYG{n}{var} \PYG{n}{\PYGZus{}0x888f}\PYG{o}{=[}\PYG{l+s}{\PYGZdq{}\PYGZbs{}x53\PYGZbs{}x61\PYGZbs{}x79\PYGZbs{}x48\PYGZbs{}x65\PYGZbs{}x6C\PYGZbs{}x6C\PYGZbs{}x6F\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}\PYGZbs{}x47\PYGZbs{}x65\PYGZbs{}x74\PYGZbs{}x43\PYGZbs{}x6F\PYGZbs{}x75\PYGZbs{}x6E\PYGZbs{}}
+\PYG{l+s}{x74\PYGZdq{}}\PYG{o}{,}\PYG{l+s}{\PYGZdq{}\PYGZbs{}x4D\PYGZbs{}x65\PYGZbs{}x73\PYGZbs{}x73\PYGZbs{}x61\PYGZbs{}x67\PYGZbs{}x65\PYGZbs{}x20\PYGZbs{}x3A\PYGZbs{}x20\PYGZdq{}}\PYG{o}{,}\PYG{l+s}{\PYGZdq{}\PYGZbs{}x59\PYGZbs{}x6F\PYGZbs{}x75\PYGZbs{}x20\PYGZbs{}x61\PYGZbs{}x72\PYGZbs{}x65\PYGZbs{}x}
+\PYG{l+s}{20\PYGZbs{}x77\PYGZbs{}x65\PYGZbs{}x6C\PYGZbs{}x63\PYGZbs{}x6F\PYGZbs{}x6D\PYGZbs{}x65\PYGZbs{}x2E\PYGZdq{}}\PYG{o}{]} \PYG{o}{;}\PYG{n}{function} \PYG{n+nf}{NewObject}\PYG{o}{(}\PYG{n}{\PYGZus{}0xd6eex2}\PYG{o}{)\PYGZob{}}\PYG{n}{var} \PYG{n}{\PYGZus{}0xd6ee}
+\PYG{n}{x3}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;}\PYG{k}{this}\PYG{o}{[}\PYG{n}{\PYGZus{}0x888f}\PYG{o}{[}\PYG{l+m+mi}{0}\PYG{o}{]]=}\PYG{n}{function}\PYG{o}{(}\PYG{n}{\PYGZus{}0xd6eex4}\PYG{o}{)\PYGZob{}}\PYG{n}{\PYGZus{}0xd6eex3}\PYG{o}{++;}\PYG{n}{alert}\PYG{o}{(}\PYG{n}{\PYGZus{}0xd6eex2}\PYG{o}{+}\PYG{n}{\PYGZus{}0xd6eex4}
+\PYG{o}{);\PYGZcb{};}\PYG{k}{this}\PYG{o}{[}\PYG{n}{\PYGZus{}0x888f}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{]]=}\PYG{n}{function}\PYG{o}{()\PYGZob{}}\PYG{k}{return} \PYG{n}{\PYGZus{}0xd6eex3}\PYG{o}{\PYGZcb{};\PYGZcb{}}\PYG{n}{var} \PYG{n}{obj}\PYG{o}{=} \PYG{k}{new} \PYG{n}{NewObject}\PYG{o}{(}\PYG{n}{\PYGZus{}0x8}
+\PYG{l+m+mi}{88}\PYG{n}{f}\PYG{o}{[}\PYG{l+m+mi}{2}\PYG{o}{]);}\PYG{n}{obj}\PYG{o}{.}\PYG{n+na}{SayHello}\PYG{o}{(}\PYG{n}{\PYGZus{}0x888f}\PYG{o}{[}\PYG{l+m+mi}{3}\PYG{o}{]);}
+\end{Verbatim}

@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/*Example Java function*/}
+
+\PYG{n}{function} \PYG{n+nf}{NewObject}\PYG{o}{(}\PYG{n}{prefix}\PYG{o}{)}
+\PYG{o}{\PYGZob{}}
+    \PYG{n}{var} \PYG{n}{count}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{o}{;}
+    \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{SayHello}\PYG{o}{=}\PYG{n}{function}\PYG{o}{(}\PYG{n}{msg}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+          \PYG{n}{count}\PYG{o}{++;}
+          \PYG{n}{alert}\PYG{o}{(}\PYG{n}{prefix}\PYG{o}{+}\PYG{n}{msg}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{GetCount}\PYG{o}{=}\PYG{n}{function}\PYG{o}{()}
+    \PYG{o}{\PYGZob{}}
+          \PYG{k}{return} \PYG{n}{count}\PYG{o}{;}
+    \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\PYG{n}{var} \PYG{n}{obj}\PYG{o}{=}\PYG{k}{new} \PYG{n}{NewObject}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}Message : \PYGZdq{}}\PYG{o}{);}
+\PYG{n}{obj}\PYG{o}{.}\PYG{n+na}{SayHello}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}You are welcome.\PYGZdq{}}\PYG{o}{);}
+\end{Verbatim}
